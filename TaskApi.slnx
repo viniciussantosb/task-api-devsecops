@@ -1,2 +1,13 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TaskApi.Api/TaskApi.Api.csproj" />
+    <Project Path="src/TaskApi.Application/TaskApi.Application.csproj" />
+    <Project Path="src/TaskApi.Domain/TaskApi.Domain.csproj" />
+    <Project Path="src/TaskApi.Infrastructure/TaskApi.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TaskApi.E2ETests/TaskApi.E2ETests.csproj" />
+    <Project Path="tests/TaskApi.IntegrationTests/TaskApi.IntegrationTests.csproj" />
+    <Project Path="tests/TaskApi.UnitTests/TaskApi.UnitTests.csproj" />
+  </Folder>
 </Solution>
