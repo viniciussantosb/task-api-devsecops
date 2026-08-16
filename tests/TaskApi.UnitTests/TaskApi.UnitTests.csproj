@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TaskApi.Domain\TaskApi.Domain.csproj" />
+    <ProjectReference Include="..\..\src\TaskApi.Application\TaskApi.Application.csproj" />
+  </ItemGroup>
+
 </Project>
